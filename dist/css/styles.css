@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,700);
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Roboto", "Helvetica", "Arial";
+  font-weight: 300; }
+  html:before, html:after,
+  body:before,
+  body:after {
+    content: "";
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: -2;
+    background: url(../images/background.jpg);
+    display: block;
+    background-size: cover;
+    margin: 0;
+    min-height: 300px;
+    height: 100%;
+    width: 100%;
+    -webkit-filter: blur(5px) brightness(0.75);
+    -moz-filter: blur(5px) brightness(0.75);
+    -ms-filter: blur(5px) brightness(0.75);
+    -o-filter: blur(5px) brightness(0.75);
+    filter: blur(5px) brightness(0.75); }
+
+h1 {
+  font-weight: 100;
+  font-size: 100px;
+  line-height: 0; }
+
+h2 {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 0; }
+
+header {
+  height: 100%; }
+
+.vertical-center {
+  position: relative;
+  top: 25%;
+  transform: translateY(-25%); }
+
+.device {
+  position: fixed;
+  height: 795px;
+  width: 402px;
+  margin-top: -179px;
+  content: " "; }
+  .device.iphone.white {
+    background: url(../images/iphone-white.png);
+    background-size: contain; }
+  .device.iphone.black {
+    background: url(../images/iphone-black.png);
+    background-size: contain; }
+  .device.windows {
+    background: url(../images/windows-black.png);
+    background-size: contain; }
+  .device.android.white {
+    background: url(../images/android-white.png);
+    background-size: contain; }
+  .device.android.black {
+    background: url(../images/android-black.png);
+    background-size: contain; }
+  .device.android .screenshot {
+    margin-top: 105px;
+    margin-left: 36px;
+    background-color: black;
+    width: 322px;
+    height: 573px;
+    padding: 3px; }
+  .device.windows.default {
+    background: url(../images/windows-black.png);
+    background-size: contain; }
+  .device.windows .screenshot {
+    margin-left: 36px; }
+  .device .screenshot {
+    margin-top: 111px;
+    margin-left: 39px;
+    background-color: black;
+    width: 322px;
+    height: 573px; }
+    .device .screenshot img {
+      width: 322px;
+      height: 573px; }
+
+.left,
+.right {
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  float: left; }
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 35pt; }
+  h2 {
+    font-size: 12pt; }
+  .left,
+  .right {
+    width: 100%;
+    float: initial; }
+  .device {
+    margin-top: initial; }
+    .device.windows .screenshot {
+      margin-top: 107px;
+      margin-left: 35px;
+      background-color: black;
+      width: 322px;
+      height: 573px;
+      padding: 3px; } }
+
+@media only screen and (min-width: 481px) and (max-width: 917px) {
+  .download a {
+    display: block;
+    text-align: center; }
+  h1 {
+    line-height: 100px;
+    margin-top: -50px;
+    margin-bottom: 0px; }
+  h2 {
+    font-size: 15pt; }
+  .device.windows .screenshot {
+    margin-left: 36px; } }
+
+.icon {
+  min-height: 40px;
+  min-width: 140px;
+  vertical-align: middle; }
+  .icon.ios {
+    background: url(../images/iOSAppStore.svg) no-repeat top left;
+    display: inline-block;
+    background-size: contain; }
+  .icon.mac {
+    min-height: 41px;
+    min-width: 162px;
+    background: url(../images/MacAppStore.svg) no-repeat top left;
+    display: inline-block;
+    background-size: contain; }
+  .icon.google {
+    background: url(../images/google-play.svg) no-repeat top left;
+    display: inline-block;
+    background-size: contain; }
+  .icon.microsoft {
+    background: url(../images/microsoft.svg) no-repeat top left;
+    display: inline-block;
+    background-size: contain;
+    margin-left: -20px; }
