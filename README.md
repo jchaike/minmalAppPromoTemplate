@@ -2,7 +2,9 @@
 
 ![Template Preview](https://github.com/jchaike/minmalAppTemplate/raw/master/preview.gif "Template Preview")
 
-You can see a live example [here](http://www.onemoresong.io)
+Live example [here](https://jchaike.github.io/minmalAppPromoTemplate/dist/)
+
+You can see a live site example [here](http://www.onemoresong.io)
 
 ## Optional Dependencies
 
