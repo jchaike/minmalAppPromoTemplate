@@ -1,4 +1,4 @@
-# Minimal App Template
+# Minimal App Promo Template
 
 ![Template Preview](https://github.com/jchaike/minmalAppTemplate/raw/master/preview.gif "Template Preview")
 
@@ -25,13 +25,17 @@ You can customize the device on the template by using the appropriate class name
 <div class="device windows default">
 ```
 
+Replace your screen shot with `images/screenshot.png` (750 × 1334).
+
+
 ## Run Locally
 
 Simply run `gulp` to compile, and start a local server on `localhost:3000`
 
 ## Build
 
-If you make any changes in `src` you can easily compile them into the `dist` folder by running `gulp build`
+A compiled version of the site is included in `dist` however, if you would like to make additional changes, I would recommend making them in the `src` folder, which can be easily compiled with `gulp build`. If you are already running `gulp` then you do not need to run `gulp build` separately.
+
 
 ## Support
 
