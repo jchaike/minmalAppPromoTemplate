@@ -2,7 +2,7 @@
 
 ![Template Preview](https://github.com/jchaike/minmalAppTemplate/raw/master/preview.gif "Template Preview")
 
-
+You can see a live example [here](https://www.onemoresong.io)
 
 ## Optional Dependencies
 
