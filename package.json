@@ -1,5 +1,5 @@
 {
-  "name": "encorepromo",
+  "name": "mimalAppPromoTemplate",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,11 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Josh Chaiken",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.13.0",
     "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.1",
-    "gulp-webserver": "^0.9.1"
+    "gulp-sass": "^2.3.1"
   }
 }
