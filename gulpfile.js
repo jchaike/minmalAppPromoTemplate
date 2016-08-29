@@ -11,7 +11,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch('src/**/*', ['sass', 'copyhtml', 'copyjs', 'copyfonts', 'watch'], function() {
+  gulp.watch('src/**/*', ['sass', 'copyhtml', 'copyjs', 'watch'], function() {
   	//browserSync.reload;
   });
 });
