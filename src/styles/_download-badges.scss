@@ -1,0 +1,33 @@
+$badge-height: 40px;
+$badge-width: 140px;
+.icon {
+    min-height: $badge-height;
+    min-width: $badge-width;
+    vertical-align: middle;
+
+    &.ios {
+        // margin-right:15px;
+        background: url(../images/iOSAppStore.svg) no-repeat top left;
+        display: inline-block;
+        background-size:contain;
+    }
+    &.mac {
+        min-height: $badge-height+1;
+        min-width: $badge-width+22;
+        background: url(../images/MacAppStore.svg) no-repeat top left;
+        display: inline-block;
+        background-size:contain;
+    }
+    &.google {
+        background: url(../images/google-play.svg) no-repeat top left;
+        display: inline-block;
+        background-size:contain;
+    }
+    &.microsoft {
+        background: url(../images/microsoft.svg) no-repeat top left;
+        display: inline-block;
+        background-size:contain;
+        margin-left: -20px;
+
+    }
+}
